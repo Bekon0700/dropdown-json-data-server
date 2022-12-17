@@ -1,0 +1,58 @@
+{
+    "countries": [
+        {
+            "id": 1,
+            "country": "Bangladesh"
+        },
+        {
+            "id": 2,
+            "country": "India"
+        }
+    ],
+    "cities": [
+        {
+            "id": 1,
+            "cityList": [
+                "Dhaka",
+                "Chittagong",
+                "Barisal"
+            ]
+        }
+    ],
+    "zones": [
+        {
+            "zone": "Dhaka",
+            "Dhaka": [
+                "Mirpur",
+                "Mohammadpur",
+                "Dhanmondi"
+            ]
+        },
+        {
+            "zone": "Barisal",
+            "Barisal": [
+                "Mirpur",
+                "Mohammadpur",
+                "Dhanmondi"
+            ]
+        }
+    ],
+    "areas": [
+        {
+            "area": "Mirpur",
+            "Mirpur": [
+                "Mirpur 10",
+                "Mirpur 11",
+                "Mirpur 6"
+            ]
+        },
+        {
+            "area": "Mohammadpur",
+            "Mohammadpur": [
+                "Adabor",
+                "Syamoli",
+                "Basila"
+            ]
+        }
+    ]
+}
