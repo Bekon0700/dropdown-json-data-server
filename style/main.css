@@ -2,4 +2,37 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+}
+
+.dropdown-container {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  width: 40%;
+  margin: 50px auto;
+}
+.dropdown-container .single-selector {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+.dropdown-container .single-selector.display-none {
+  display: none;
+}
+.dropdown-container .single-selector .label {
+  font-size: 25px;
+  font-weight: 500;
+}
+.dropdown-container .single-selector .dropdown-selector {
+  padding: 3px;
+  font-size: 18px;
+  font-weight: 400;
+}
+.dropdown-container .single-selector .dropdown-selector option {
+  padding: 3px 5px;
+  margin: 6px;
+}
+
+.display-none {
+  display: none;
 }/*# sourceMappingURL=main.css.map */

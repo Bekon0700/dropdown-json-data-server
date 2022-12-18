@@ -1,58 +1,83 @@
 {
-    "countries": [
+    "Country": [
         {
-            "id": 1,
-            "country": "Bangladesh"
+            "id": "BD",
+            "name": "Bangladesh"
         },
         {
-            "id": 2,
-            "country": "India"
+            "id": "US",
+            "name": "America"
         }
     ],
-    "cities": [
+    "city": [
         {
-            "id": 1,
-            "cityList": [
-                "Dhaka",
-                "Chittagong",
-                "Barisal"
-            ]
-        }
-    ],
-    "zones": [
-        {
-            "zone": "Dhaka",
-            "Dhaka": [
-                "Mirpur",
-                "Mohammadpur",
-                "Dhanmondi"
-            ]
+            "id": "dhaka",
+            "countryId": "BD",
+            "name": "Dhaka"
         },
         {
-            "zone": "Barisal",
-            "Barisal": [
-                "Mirpur",
-                "Mohammadpur",
-                "Dhanmondi"
-            ]
-        }
-    ],
-    "areas": [
-        {
-            "area": "Mirpur",
-            "Mirpur": [
-                "Mirpur 10",
-                "Mirpur 11",
-                "Mirpur 6"
-            ]
+            "id": "barisal",
+            "countryId": "BD",
+            "name": "Barisal"
         },
         {
-            "area": "Mohammadpur",
-            "Mohammadpur": [
-                "Adabor",
-                "Syamoli",
-                "Basila"
-            ]
+            "id": "florida",
+            "countryId": "US",
+            "name": "Florida"
+        },
+        {
+            "id": "california",
+            "countryId": "US",
+            "name": "California"
+        }
+    ],
+    "zone": [
+        {
+            "id": "dhaka-north",
+            "cityId": "dhaka",
+            "name": "Dhaka North"
+        },
+        {
+            "id": "dhaka-south",
+            "cityId": "dhaka",
+            "name": "Dhaka South"
+        },
+        {
+            "id": "barisal-north",
+            "cityId": "barisal",
+            "name": "Barisal North"
+        },
+        {
+            "id": "barisal-south",
+            "cityId": "barisal",
+            "name": "Barisal South"
+        }
+    ],
+    "area": [
+        {
+            "id": "mirpur",
+            "zoneId": "dhaka-north",
+            "name": "Mirpur"
+        },
+        {
+            "id": "mohammadpur",
+            "zoneId": "dhaka-north",
+            "name": "Mohammadpur"
+        },
+        {
+            "id": "khilgaon",
+            "zoneId": "dhaka-south",
+            "name": "Khilgaon"
+        },
+        {
+            "id": "motijheel",
+            "zoneId": "dhaka-south",
+            "name": "Motijheel"
+        },
+        {
+            "id": "kodomtoli",
+            "zoneId": "barisal-south",
+            "name": "Kodomtoli"
         }
     ]
 }

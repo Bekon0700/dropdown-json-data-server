@@ -3,3 +3,41 @@
     margin: 0;
     padding: 0;
 }
+
+.dropdown-container {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    width: 40%;
+    margin: 50px auto;
+
+    .single-selector {
+        display: flex;
+        flex-direction: column;
+        gap: 12px;
+
+        &.display-none {
+            display: none;
+        }
+
+        .label {
+            font-size: 25px;
+            font-weight: 500;
+        }
+
+        .dropdown-selector {
+            padding: 3px;
+            font-size: 18px;
+            font-weight: 400;
+
+            option {
+                padding: 3px 5px;
+                margin: 6px;
+            }
+        }
+    }
+}
+
+.display-none {
+    display: none;
+}

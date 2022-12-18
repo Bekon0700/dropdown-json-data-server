@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,8 +8,38 @@
     <link rel="stylesheet" href="./style/main.css">
     <title>Dropdown</title>
 </head>
+
 <body>
-    
+    <div class="dropdown-container">
+        <div class="single-selector">
+            <label for="countries" class="label">Choose a Country:</label>
+            <select name="countries" id="countries" class="dropdown-selector">
+                <option value="-1">Select an option</option>
+            </select>
+        </div>
+        <div class="single-selector display-none" id="city">
+            <label for="cities" class="label">Choose a City:</label>
+            <select name="cities" id="cities" class="dropdown-selector">
+                <option id="cityOpt" value="-1">Select an option</option>
+            </select>
+        </div>
+        <div class="single-selector display-none" id="zone">
+            <label for="zones" class="label">Choose a Zone:</label>
+            <select name="zones" id="zones" class="dropdown-selector">
+                <option id="zoneOpt" value="-1">Select an option</option>
+            </select>
+        </div>
+        <div class="single-selector display-none" id="area">
+            <label for="areas" class="label">Choose a Area:</label>
+            <select name="areas" id="areas" class="dropdown-selector">
+                <option id="areaOpt" value="-1">Select an option</option>
+            </select>
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.6.2.min.js"
+        integrity="sha256-2krYZKh//PcchRtd+H+VyyQoZ/e3EcrkxhM8ycwASPA=" crossorigin="anonymous">
+        </script>
     <script src="./js/main.js"></script>
 </body>
+
 </html>
